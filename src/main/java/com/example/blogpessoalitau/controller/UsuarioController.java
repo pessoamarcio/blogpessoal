@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.blogpessoalitau.model.Usuario;
 import com.example.blogpessoalitau.model.UsuarioLogin;
 import com.example.blogpessoalitau.repository.UsuarioRepository;
-import com.example.blogpessoalitau.security.UsuarioService;
+import com.example.blogpessoalitau.service.UsuarioService;
 
 @RestController
 @RequestMapping("/usuarios")

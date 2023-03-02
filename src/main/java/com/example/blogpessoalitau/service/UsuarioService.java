@@ -1,4 +1,4 @@
-package com.example.blogpessoalitau.security;
+package com.example.blogpessoalitau.service;
 
 import java.nio.charset.Charset;
 import java.util.Optional;

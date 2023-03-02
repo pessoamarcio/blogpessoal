@@ -19,7 +19,7 @@ import org.springframework.http.ResponseEntity;
 
 import com.example.blogpessoalitau.model.Usuario;
 import com.example.blogpessoalitau.repository.UsuarioRepository;
-import com.example.blogpessoalitau.security.UsuarioService;
+import com.example.blogpessoalitau.service.UsuarioService;
 
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
