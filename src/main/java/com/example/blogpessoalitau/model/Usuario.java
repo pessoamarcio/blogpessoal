@@ -19,7 +19,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import io.swagger.v3.oas.annotations.media.Schema;
 
 @Entity
-@Table(name = "tb_usuarios")
+@Table(name = "tb_blog_usuarios")
 public class Usuario {
 	
 	@Id

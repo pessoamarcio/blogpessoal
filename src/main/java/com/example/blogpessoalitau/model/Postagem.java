@@ -16,7 +16,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "tb_postagens")
+@Table(name = "tb_blog_postagens")
 public class Postagem {
 
 	@Id
